@@ -1,0 +1,52 @@
+﻿@model SportsStore.Domain.Entities.ShippingDetails
+
+@{
+    ViewBag.Title = "Sklep sportowy: Wysyłka";
+}
+
+<h2>Wysyłka</h2>
+<p>Proszę podać swoje dane, a towar zostanie natychmiast wysłany!</p>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+
+    <h3>Wysyłka dla</h3>
+
+    <div class="form-group">
+        <label>Imię:</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        <label>Nazwisko:</label>
+        @Html.TextBoxFor(x => x.Surname, new { @class = "form-control" })
+    </div>
+
+    <h3>Adres</h3>
+
+    <div class="form-group">
+        <label>Ulica:</label>
+        @Html.TextBoxFor(x => x.Street, new { @class = "form-control" })
+        <label>Numer:</label>
+        @Html.TextBoxFor(x => x.Number, new { @class = "form-control" })
+        <label>Miasto:</label>
+        @Html.TextBoxFor(x => x.City, new { @class = "form-control" })
+        <label>Województwo:</label>
+        @Html.TextBoxFor(x => x.State, new { @class = "form-control" })
+        <label>Kraj:</label>
+        @Html.TextBoxFor(x => x.Country, new { @class = "form-control" })
+        <label>Kod pocztowy:</label>
+        @Html.TextBoxFor(x => x.Zip, new { @class = "form-control" })
+    </div>
+
+    <h3>Opcje</h3>
+
+    <div class="checkbox">
+        <label>
+            @Html.EditorFor(x => x.GiftWrap)
+            Zapakowanie jako prezent
+        </label>
+    </div>
+
+    <div class="text-center">
+        <input type="submit" class="btn btn-primary" value="Złóż zamówienie" />
+    </div>
+}

@@ -1,0 +1,12 @@
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojAssemblyReference.cache
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+D:\ASP.NET MVC\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
